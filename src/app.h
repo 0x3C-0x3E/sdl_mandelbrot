@@ -14,7 +14,7 @@ typedef struct App {
 	SDL_Texture * screen_buffer;
 } App;
 
-const int MAX_ITERATIONS = 2;
+extern int MAX_ITERATIONS;
 
 int init_sdl();
 
