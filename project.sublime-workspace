@@ -1,0 +1,2206 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rec",
+				"recv_buffer"
+			],
+			[
+				"eve",
+				"events_lobbey"
+			],
+			[
+				"draw",
+				"draw_game"
+			],
+			[
+				"buf",
+				"recv_buffer"
+			],
+			[
+				"re",
+				"recv_buffer"
+			],
+			[
+				"the",
+				"thread_client_size"
+			],
+			[
+				"clien",
+				"client_size"
+			],
+			[
+				"clie",
+				"client_size"
+			],
+			[
+				"cli",
+				"client_size"
+			],
+			[
+				"ser",
+				"server"
+			],
+			[
+				"SER",
+				"SERVER_IP"
+			],
+			[
+				"sock",
+				"sockaddr_in"
+			],
+			[
+				"thre",
+				"threads"
+			],
+			[
+				"client",
+				"client_count"
+			],
+			[
+				"thread",
+				"thread_data"
+			],
+			[
+				"cl",
+				"client"
+			],
+			[
+				"wsa",
+				"WSACleanup"
+			],
+			[
+				"t",
+				"TETROMINO_O"
+			],
+			[
+				"sca",
+				"render_scale"
+			],
+			[
+				"T",
+				"TILESIZE"
+			],
+			[
+				"found",
+				"found_lines"
+			],
+			[
+				"te",
+				"text_surface"
+			],
+			[
+				"text",
+				"text_texture"
+			],
+			[
+				"d",
+				"drawing_context"
+			],
+			[
+				"SCREE",
+				"SCREEN_HEIGHT"
+			],
+			[
+				"di",
+				"DISPLAY_HEIGHT"
+			],
+			[
+				"ti",
+				"tiles_count"
+			],
+			[
+				"de",
+				"deltaTime"
+			],
+			[
+				"TIck",
+				"TICK_RATE"
+			],
+			[
+				"Ti",
+				"TICK_RATE"
+			],
+			[
+				"tile",
+				"tiles_count"
+			],
+			[
+				"til",
+				"TILESIZE"
+			],
+			[
+				"pre",
+				"prev_x"
+			],
+			[
+				"ro",
+				"rotation_clear_rotatation_label"
+			],
+			[
+				"cetn",
+				"center_y"
+			],
+			[
+				"cent",
+				"center_x"
+			],
+			[
+				"new",
+				"new_y"
+			],
+			[
+				"rel",
+				"relative_x"
+			],
+			[
+				"cnet",
+				"center_y"
+			],
+			[
+				"c",
+				"center_y"
+			],
+			[
+				"ce",
+				"center_x"
+			],
+			[
+				"center",
+				"center_y"
+			],
+			[
+				"TI",
+				"TILESIZE"
+			],
+			[
+				"Te",
+				"TetrominoTypes"
+			],
+			[
+				"ma",
+				"max_tick_accumilator"
+			],
+			[
+				"Tile",
+				"TILESIZE"
+			],
+			[
+				"tiel",
+				"tileset"
+			],
+			[
+				"che",
+				"check_move_tile_y"
+			],
+			[
+				"check",
+				"check_move_tile_x"
+			],
+			[
+				"ac",
+				"active_tetromino"
+			],
+			[
+				"a",
+				"active_tetromino"
+			],
+			[
+				"add_t",
+				"add_tetromino"
+			],
+			[
+				"tet",
+				"tetromino"
+			],
+			[
+				"Tetro",
+				"Tetromino"
+			],
+			[
+				"tetr",
+				"Tetromino"
+			],
+			[
+				"Tetrmo",
+				"Tetromino"
+			],
+			[
+				"Til",
+				"TILESIZE"
+			],
+			[
+				"is",
+				"is_able_to_move"
+			],
+			[
+				"SC",
+				"SCREEN_WIDTH"
+			],
+			[
+				"std",
+				"stdio.h"
+			],
+			[
+				"Objec",
+				"ObjectManager"
+			],
+			[
+				"Object",
+				"ObjectType"
+			],
+			[
+				"Ob",
+				"ObjectManager"
+			],
+			[
+				"up",
+				"update_objects"
+			],
+			[
+				"get",
+				"get_y"
+			],
+			[
+				"p_",
+				"p_drawing_context"
+			],
+			[
+				"Pla",
+				"PlayerAnimationState"
+			],
+			[
+				"obje",
+				"object_manager"
+			],
+			[
+				"drawing",
+				"drawing_context"
+			],
+			[
+				"objet",
+				"object_manager"
+			],
+			[
+				"objec",
+				"object_manager"
+			],
+			[
+				"sc",
+				"SCREEN_HEIGHT"
+			],
+			[
+				"En",
+				"EngineContext"
+			],
+			[
+				"w",
+				"world_x"
+			],
+			[
+				"word",
+				"world_y"
+			],
+			[
+				"wor",
+				"world_y"
+			],
+			[
+				"p",
+				"p_world_y"
+			],
+			[
+				"world",
+				"world_y"
+			],
+			[
+				"star",
+				"starting_mouse_y"
+			],
+			[
+				"start",
+				"starting_mouse_x"
+			],
+			[
+				"mouse",
+				"mouse_x"
+			],
+			[
+				"st",
+				"Stone"
+			],
+			[
+				"g",
+				"Ground"
+			],
+			[
+				"e",
+				"editor_ui_renderer"
+			],
+			[
+				"mosue",
+				"mouse_x"
+			],
+			[
+				"cur",
+				"cursor_y"
+			],
+			[
+				"cu",
+				"cursor_y"
+			],
+			[
+				"curs",
+				"cursor_y"
+			],
+			[
+				"ge",
+				"get_y"
+			],
+			[
+				"app",
+				"apply_y_vel"
+			],
+			[
+				"all",
+				"apply_x_vel"
+			],
+			[
+				"hand",
+				"handle_y_collision"
+			],
+			[
+				"en",
+				"entity"
+			],
+			[
+				"x_co",
+				"x_coll"
+			],
+			[
+				"ent",
+				"entity"
+			],
+			[
+				"enit",
+				"entity"
+			],
+			[
+				"handle",
+				"handle_x_collision"
+			],
+			[
+				"dis",
+				"x_distance"
+			],
+			[
+				"hande",
+				"handle_y"
+			],
+			[
+				"x_di",
+				"x_distance"
+			],
+			[
+				"x_d",
+				"x_direction"
+			],
+			[
+				"gaem",
+				"game_ui_renderer"
+			],
+			[
+				"ani",
+				"animation_timer"
+			],
+			[
+				"an",
+				"animation"
+			],
+			[
+				"tex",
+				"texture_flip"
+			],
+			[
+				"spir",
+				"sprite"
+			],
+			[
+				"enti",
+				"entity_manager"
+			],
+			[
+				"set_x",
+				"set_x_vel"
+			],
+			[
+				"kin",
+				"kinetic_body"
+			],
+			[
+				"p_x",
+				"p_x_acc"
+			],
+			[
+				"redner",
+				"render_scale"
+			],
+			[
+				"ren",
+				"renderer"
+			],
+			[
+				"Ent",
+				"Entity"
+			],
+			[
+				"Enti",
+				"Entity"
+			],
+			[
+				"Entit",
+				"EntityTypes"
+			],
+			[
+				"entit",
+				"entities"
+			],
+			[
+				"Scen",
+				"SceneType"
+			],
+			[
+				"Sce",
+				"SceneType"
+			],
+			[
+				"Rend",
+				"Renderer"
+			],
+			[
+				"Coul",
+				"COULD"
+			],
+			[
+				"game_remo",
+				"game_remove_entity"
+			],
+			[
+				"string",
+				"string.h"
+			],
+			[
+				"cure",
+				"current_width"
+			],
+			[
+				"rende",
+				"renderScale"
+			],
+			[
+				"Ren",
+				"renderScale"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"scre",
+				"screen_height"
+			],
+			[
+				"tmp",
+				"tmp_tex"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/main.c",
+			"settings":
+			{
+				"buffer_size": 112,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					28,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGMEAAAAAAAAYwQAAAAAAAACAgAAdm9pZCBzdGFydF9sb2JiZXkoKQp7CgoJb3RoZXJfY2xpZW50X2Nvbm5lY3RlZCA9IGZhbHNlOwoJaW5pdF9kcmF3aW5nX2NvbnRleHQoKTsKCglldmVudHMgPSBldmVudHNfbG9iYmV5OwoJdXBkYXRlID0gdXBkYXRlX2xvYmJleTsKCWRyYXcgPSBkcmF3X2xvYmJleTsKCgoJc2V0X21lc3NhZ2UoInBpbmd1c3IiKTsKCXNlbmRfbWVzc2FnZSgpOwoKCXJ1bigpOwp9CgppbnQgZXZlbnRzX2xvYmJleShTRExfRXZlbnQgZSkKewoJaWYgKGUudHlwZSA9PSBTRExfS0VZRE9XTikKCXsKCQlzd2l0Y2ggKGUua2V5LmtleXN5bS5zY2FuY29kZSkKCQl7CgoJCWNhc2UgU0RMX1NDQU5DT0RFX1JFVFVSTjoKCQkJCgkJCXJldHVybiAyOwoKCgkJZGVmYXVsdDoKCQkJYnJlYWs7CgkJfQoJfQoJaWYgKGUudHlwZSA9PSBTRExfUVVJVCkKCXsKCQljbGVhbnVwKCk7CgkJZXhpdCgwKTsKCQlyZXR1cm4gMTsKCX0KCglpZiAob3RoZXJfY2xpZW50X2Nvbm5lY3RlZCkKCXsKCQlyZXR1cm4gMjsKCX0KCXJldHVybiAwOwp9Cg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABlBgAAAAAAAGMEAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": "\na"
+					},
+					"AgAAAGIEAAAAAAAAYwQAAAAAAAAAAAAAYwQAAAAAAABkBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABiBAAAAAAAAGIEAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					32,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGMEAAAAAAAAYwQAAAAAAAABAAAAYQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABkBAAAAAAAAGMEAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					37,
+					2,
+					"left_delete",
+					null,
+					"AgAAAGUEAAAAAAAAZQQAAAAAAADpAgAAdm9pZCB1cGRhdGVfbG9iYmV5KCkKewoJdGlja19hY2N1bWlsYXRvciArKzsKCWlmICh0aWNrX2FjY3VtaWxhdG9yID49IG1heF90aWNrX2FjY3VtaWxhdG9yICYmICEoZ2FtZW92ZXIpKQoJewoJCXRpY2tfYWNjdW1pbGF0b3IgPSAwOwoKCQlpZiAocmVjdl9jaGFuZ2UpCgkJewoJCQlyZWN2X2NoYW5nZSA9IGZhbHNlOwoJCQlwcmludGYoIltDTElFTlRdICVzXG4iLCByZWN2X2J1ZmZlcik7CgkJCWlmIChzdHJjbXAocmVjdl9idWZmZXIsICJwaW5ndXNyIikgPT0gMCkKCQkJewoJCQkJc2V0X21lc3NhZ2UoInBpbmd1c3JiYWNrIik7CgkJCQlzZW5kX21lc3NhZ2UoKTsKCQkJfQoKCQkJaWYgKHN0cmNtcChyZWN2X2J1ZmZlciwgInBpbmd1c3JiYWNrIikgPT0gMCkKCQkJewoJCQkJc2V0X21lc3NhZ2UoInN0YXJ0Z2FtZSIpOwoJCQkJc2VuZF9tZXNzYWdlKCk7CgkJCX0KCgkJCWlmIChzdHJjbXAocmVjdl9idWZmZXIsICJzdGFydGdhbWUiKSA9PSAwKQoJCQl7CgkJCQlzZXRfbWVzc2FnZSgic3RhcnRnYW1lIik7CgkJCQlzZW5kX21lc3NhZ2UoKTsKCQkJCW90aGVyX2NsaWVudF9jb25uZWN0ZWQgPSB0cnVlOwoJCQl9CgoJCQlpZiAoc3RyY21wKHJlY3ZfYnVmZmVyLCAibGluZWNscmQiKSA9PSAwKQoJCQl7CgkJCQlwcmludGYoIltJTkZPXSBPUFBPTkVOVCBDTEVBUkVEIExJTkUsIENSRUFUSU5HIFBFTkFMVFkgTElORVxuIik7CgkJCQljcmVhdGVfb3Bwb25lbnRfbGluZSgpOwoJCQl9CgkJfQoJCQoJfQp9CmQEAAAAAAAAZAQAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABlBAAAAAAAAE4HAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					40,
+					2,
+					"left_delete",
+					null,
+					"AgAAAGUEAAAAAAAAZQQAAAAAAABBAgAAdm9pZCBkcmF3X2xvYmJleSgpCnsKCVNETF9TZXRSZW5kZXJEcmF3Q29sb3Ioc2RsX3JlbmRlcmVyLCAyNSwgMjUsIDI1LCAyNTUpOwoJU0RMX1JlY3QgcmVjdCA9IHs0MDAsIDAsIDIwMCwgU0NSRUVOX0hFSUdIVH07CglTRExfUmVuZGVyRmlsbFJlY3QoZHJhd2luZ19jb250ZXh0LnJlbmRlcmVyLCAmcmVjdCk7CglTRExfU2V0UmVuZGVyRHJhd0NvbG9yKHNkbF9yZW5kZXJlciwgNTAsIDUwLCA1MCwgMjU1KTsKCgoKCXJlbmRlcl90ZXh0KCJUZXRyaXMhIiwgZm9udCwgKFNETF9Db2xvcikgezI1NSwgMjU1LCAyNTV9LCA1MDAsIDEwMCwgY2VudGVyZWQpOwoKCglyZW5kZXJfdGV4dCgiV2FpdGluZyBmb3IiLCBmb250LCAoU0RMX0NvbG9yKSB7MjU1LCAyNTUsIDI1NX0sIDIwMCwgMzAwLCBjZW50ZXJlZCk7CglyZW5kZXJfdGV4dCgiaW5jb21taW5nIGNsaWVudHMiLCBmb250LCAoU0RMX0NvbG9yKSB7MjU1LCAyNTUsIDI1NX0sIDIwMCwgMzQwLCBjZW50ZXJlZCk7CgoJcmVuZGVyX3RleHQoIihjKSAyMDI1IiwgZm9udCwgKFNETF9Db2xvcikgezI1NSwgMjU1LCAyNTV9LCA1MDAsIDc1MCwgY2VudGVyZWQpOwp9CmQEAAAAAAAAZAQAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACmBgAAAAAAAGUEAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					41,
+					1,
+					"right_delete",
+					null,
+					"AQAAAGQEAAAAAAAAZAQAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABkBAAAAAAAAGQEAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					48,
+					2,
+					"left_delete",
+					null,
+					"AgAAAGMEAAAAAAAAYwQAAAAAAAABAAAACmIEAAAAAAAAYgQAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABkBAAAAAAAAGQEAAAAAAAAAAAAAAAAIEA"
+				],
+				[
+					54,
+					3,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"
+					},
+					"AwAAAMQaAAAAAAAAxBoAAAAAAAAYAAAACWluaXRfZHJhd2luZ19jb250ZXh0KCk7wxoAAAAAAADDGgAAAAAAAAEAAAAKwhoAAAAAAADCGgAAAAAAAAEAAAAK",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADcGgAAAAAAANwaAAAAAAAA////////738"
+				],
+				[
+					5,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAACFHQAAI2luY2x1ZGUgIm1haW4uaCIKI2luY2x1ZGUgPG1hdGguaD4KI2luY2x1ZGUgPHN0ZGxpYi5oPgoKRHJhd2luZ19Db250ZXh0IGRyYXdpbmdfY29udGV4dDsKCgpmbG9hdCBoaXJlVGltZUluU2Vjb25kcygpCnsKCWZsb2F0IHQgPSBTRExfR2V0VGlja3MoKTsKCXQgKj0gMC4wMDFmOwoKCXJldHVybiB0Owp9CgppbnQgaW5pdF9zZGwoKQp7CglpZiAoU0RMX0luaXQoU0RMX0lOSVRfVklERU8pIDwgMCkKCXsKCQlwcmludGYoIlNETCBjb3VsZCBub3QgaW5pdGlhbGl6ZSEgU0RMX0Vycm9yOiAlc1xuIiwgU0RMX0dldEVycm9yKCkpOwoJCXJldHVybiAxOwoJfQoKCWlmICghSU1HX0luaXQoSU1HX0lOSVRfUE5HKSkgewoJCXByaW50ZigiU0RMX0ltYWdlIGNvdWxkIG5vdCBpbml0aWFsaXplIVxuIik7CgkJcmV0dXJuIDE7Cgl9CgoJaWYgKE1peF9PcGVuQXVkaW8oNDQxMDAsIE1JWF9ERUZBVUxUX0ZPUk1BVCwgMiwgMjA0OCkgPCAwKQoJewoJCXByaW50ZigiRmFpbGVkIHRvIGluaXRpYWxpemUgU0RMX21peGVyOiAlc1xuIiwgTWl4X0dldEVycm9yKCkpOwoJCXJldHVybiAxOwoJfQoKCWlmIChUVEZfSW5pdCgpID09IC0xKQoJewoJCXByaW50ZigiU0RMX3R0ZiBjb3VsZCBub3QgaW5pdGlhbGl6ZSEgU0RMX3R0ZiBFcnJvcjogJXNcbiIsIFRURl9HZXRFcnJvcigpKTsKCQlyZXR1cm4gMTsKCX0KCQoJc2RsX3dpbmRvdyA9IFNETF9DcmVhdGVXaW5kb3coCgkJIlRldHJpcyIsCgkJU0RMX1dJTkRPV1BPU19VTkRFRklORUQsIAoJCVNETF9XSU5ET1dQT1NfVU5ERUZJTkVELCAKCQlTQ1JFRU5fV0lEVEgsIAoJCVNDUkVFTl9IRUlHSFQsIAoJCVNETF9XSU5ET1dfU0hPV04KCQkpOwoJc2RsX3JlbmRlcmVyID0gU0RMX0NyZWF0ZVJlbmRlcmVyKAoJCXNkbF93aW5kb3csCgkJLTEsCgkJU0RMX1JFTkRFUkVSX0FDQ0VMRVJBVEVECgkJKTsKCglTRExfU2V0UmVuZGVyRHJhd0NvbG9yKHNkbF9yZW5kZXJlciwgNTAsIDUwLCA1MCwgMjU1KTsKCglyZXR1cm4gMDsKfQoKdm9pZCBpbml0X2RyYXdpbmdfY29udGV4dCgpCnsKCWRyYXdpbmdfY29udGV4dCA9IHsKCQlzZGxfcmVuZGVyZXIsCgkJbG9hZF90ZXh0dXJlKCJkYXRhL3RpbGVzZXQucG5nIiwgc2RsX3JlbmRlcmVyKQoJfTsKfQoKCgp2b2lkIHN0YXJ0X2dhbWUoKQp7Cglpbml0X2RyYXdpbmdfY29udGV4dCgpOwoKCXRpbGVzX2NvdW50ID0gMDsKCXNldF90ZXRyb21pbm8oJmFjdGl2ZV90ZXRyb21pbm8sIHRpbGVzLCB0aWxlc19jb3VudCwgbmV4dF90ZXRyb21pbm8pOwoJbmV4dF90ZXRyb21pbm8gPSAoVGV0cm9taW5vVHlwZXMpIChyYW5kKCkgJSA3KTsKCXRpbGVzX2NvdW50ICs9IDQ7CgoJc2NvcmUgPSAwOwoJbGluZXNfY2xlYXJlZCA9IDA7CgoJZXZlbnRzID0gZXZlbnRzX2dhbWU7Cgl1cGRhdGUgPSB1cGRhdGVfZ2FtZTsKCWRyYXcgPSBkcmF3X2dhbWU7CgoJaWYgKHJ1bigpID09IDIpCgl7CgkJc3RhcnRfZ2FtZSgpOwoJfQp9CgppbnQgZXZlbnRzX2dhbWUoU0RMX0V2ZW50IGUpCnsKCWlmIChlLnR5cGUgPT0gU0RMX0tFWURPV04pCgl7CgkJc3dpdGNoIChlLmtleS5rZXlzeW0uc2NhbmNvZGUpCgkJewoJCWNhc2UgU0RMX1NDQU5DT0RFX1VQOgoJCQlyb3RhdGVfdGV0cm9taW5vKCZhY3RpdmVfdGV0cm9taW5vLCB0aWxlcywgdGlsZXNfY291bnQpOwoJCQlicmVhazsKCQljYXNlIFNETF9TQ0FOQ09ERV9MRUZUOgoJCQltb3ZlX3RldHJvbWlubygmYWN0aXZlX3RldHJvbWlubywgLVRJTEVTSVpFLCB0aWxlcywgdGlsZXNfY291bnQpOwoJCQlicmVhazsKCgkJY2FzZSBTRExfU0NBTkNPREVfUklHSFQ6CgkJCW1vdmVfdGV0cm9taW5vKCZhY3RpdmVfdGV0cm9taW5vLCBUSUxFU0laRSwgdGlsZXMsIHRpbGVzX2NvdW50KTsKCQkJYnJlYWs7CgkJY2FzZSBTRExfU0NBTkNPREVfRE9XTjoKCgkJCWlmIChUSUNLX1JBVEUgIT0gMTUpCgkJCXsKCQkJCXRpY2tfYWNjdW1pbGF0b3IgPSAwOwoJCQl9CgkJCVRJQ0tfUkFURSA9IDE1OwoJCQltYXhfdGlja19hY2N1bWlsYXRvciA9IFJFRlJFU0hfUkFURSAvIFRJQ0tfUkFURTsKCQkJYnJlYWs7CgoJCWNhc2UgU0RMX1NDQU5DT0RFX1JFVFVSTjoKCgkJCWdhbWVvdmVyID0gZmFsc2U7CgkJCQoJCQlyZXR1cm4gMjsKCgoJCWRlZmF1bHQ6CgkJCWJyZWFrOwoJCX0KCX0KCWlmIChlLnR5cGUgPT0gU0RMX0tFWVVQKQoJewoJCWlmIChlLmtleS5rZXlzeW0uc2NhbmNvZGUgPT0gU0RMX1NDQU5DT0RFX0RPV04pCgkJewoJCQlpZiAoVElDS19SQVRFICE9IDIpCgkJCXsKCQkJCXRpY2tfYWNjdW1pbGF0b3IgPSAwOwoJCQl9CgkJCVRJQ0tfUkFURSA9IDI7CgkJCW1heF90aWNrX2FjY3VtaWxhdG9yID0gUkVGUkVTSF9SQVRFIC8gVElDS19SQVRFOwoJCQl0aWNrX2FjY3VtaWxhdG9yID0gMDsKCQl9Cgl9CgoJaWYgKGUudHlwZSA9PSBTRExfUVVJVCkKCXsKCQlleGl0KDApOwoJCWNsZWFudXAoKTsKCQlyZXR1cm4gMjsKCX0KCglyZXR1cm4gMDsKfQoKdm9pZCB1cGRhdGVfZ2FtZSgpCnsKCXRpY2tfYWNjdW1pbGF0b3IgKys7CglpZiAodGlja19hY2N1bWlsYXRvciA+PSBtYXhfdGlja19hY2N1bWlsYXRvciAmJiAhKGdhbWVvdmVyKSkKCXsKCQl0aWNrX2FjY3VtaWxhdG9yID0gMDsKCgkJaWYgKHJlY3ZfY2hhbmdlKQoJCXsKCQkJcmVjdl9jaGFuZ2UgPSBmYWxzZTsKCQkJcHJpbnRmKCJbQ0xJRU5UXSAlc1xuIiwgcmVjdl9idWZmZXIpOwoJCX0KCQkKCQlpbnQgcmVzdWx0ID0gdXBkYXRlX3RldHJvbWlubygmYWN0aXZlX3RldHJvbWlubywgdGlsZXMsIHRpbGVzX2NvdW50KTsKCgkJaWYgKHJlc3VsdD09IDEpCgkJewoJCQljaGVja19mb3JfbGluZXNfY2xlYXJlZCgpOwoJCQlzZXRfdGV0cm9taW5vKCZhY3RpdmVfdGV0cm9taW5vLCB0aWxlcywgdGlsZXNfY291bnQsIG5leHRfdGV0cm9taW5vKTsKCQkJbmV4dF90ZXRyb21pbm8gPSAoVGV0cm9taW5vVHlwZXMpIChyYW5kKCkgJSA3KTsKCQkJdGlsZXNfY291bnQgKz0gNDsKCgkJfQoKCQlpZiAocmVzdWx0ID09IC0xKQoJCXsKCQkJLy9nYW1lIG92ZXIKCQkJZ2FtZW92ZXIgPSB0cnVlOwoJCX0KCgl9CQp9Cgp2b2lkIGNoZWNrX2Zvcl9saW5lc19jbGVhcmVkKCkKewoJaW50IGZvdW5kX2xpbmVzID0gMDsKCWZvciAoaW50IHkgPSAwOyB5IDwgMjA7IHkrKykKCXsKCQlpbnQgZm91bmRfdGlsZXMgPSAwOwoJCWZvciAoaW50IGkgPSAwOyBpIDwgdGlsZXNfY291bnQ7IGkrKykKCQl7CgkJCWlmICh0aWxlc1tpXS55ID09IHkgKiBUSUxFU0laRSkKCQkJewoJCQkJZm91bmRfdGlsZXMgKys7CgkJCX0KCQl9CgoJCWlmIChmb3VuZF90aWxlcyA9PSAxMCkKCQl7CgkJCWNsZWFyX2xpbmUoeSk7CgkJCWZvdW5kX2xpbmVzICsrOwoJCX0KCX0KCglzd2l0Y2goZm91bmRfbGluZXMpCgl7CgljYXNlIDA6CgkJYnJlYWs7CgoJY2FzZSAxOgoJCXNjb3JlICs9IDEwMDsKCQlicmVhazsKCgljYXNlIDI6CgkJc2NvcmUgKz0gMzAwOwoJCWJyZWFrOwoKCWNhc2UgMzoKCQlzY29yZSArPSA2MDA7CgkJYnJlYWs7CgoJY2FzZSA0OgoJCXNjb3JlICs9IDEwMDA7CgkJYnJlYWs7CQoJCQoJfQoKfQoKdm9pZCBjbGVhcl9saW5lKGludCB5KQp7CglsaW5lc19jbGVhcmVkICsrOwoKCXNldF9tZXNzYWdlKCJsaW5lY2xyZCIpOwoJc2VuZF9tZXNzYWdlKCk7CgoKCWludCBsYXN0X2NoZWNrZWRfaW5kZXggPSAwOwoJZm9yIChpbnQgdGlsZSA9IDA7IHRpbGUgPCAxMDsgdGlsZSArKykKCXsKCgkJZm9yIChpbnQgaSA9IGxhc3RfY2hlY2tlZF9pbmRleDsgaSA8IHRpbGVzX2NvdW50OyBpKyspCgkJewoJCQlpZiAodGlsZXNbaV0ueSA9PSB5ICogVElMRVNJWkUpCgkJCXsKCQkJCWxhc3RfY2hlY2tlZF9pbmRleCA9IGk7CgkJCQlicmVhazsKCQkJfQoJCX0KCgkJZm9yIChpbnQgaiA9IGxhc3RfY2hlY2tlZF9pbmRleDsgaiA8IHRpbGVzX2NvdW50IC0gMTsgaisrKQoJCXsKCQkJdGlsZXNbal0gPSB0aWxlc1tqICsgMV07CgkJfQoJCXRpbGVzX2NvdW50IC0tOwoJfQoKCQoJZm9yIChpbnQgaSA9IDA7IGkgPCB0aWxlc19jb3VudDsgaSsrKQoJewoJCWlmKCB0aWxlc1tpXS55IDwgeSAqIFRJTEVTSVpFKQoJCXsKCQkJdGlsZXNbaV0ueSArPSBUSUxFU0laRTsKCQl9Cgl9CgkKfQoKdm9pZCBjcmVhdGVfb3Bwb25lbnRfbGluZSgpCnsKCWludCBsaW5lX3kgPSAxOTsKCWZvciAoaW50IGkgPSAwOyBpIDwgdGlsZXNfY291bnQ7IGkrKykKCXsKCQl0aWxlc1tpXS55IC09IFRJTEVTSVpFOwoJfQoKCWZvciAoaW50IHggPSAwOyB4IDwgOTsgeCsrKQoJewoJCWFkZF90aWxlKHggKiBUSUxFU0laRSwgbGluZV95ICogVElMRVNJWkUsIHRpbGVzLCB0aWxlc19jb3VudCwgMCk7Cgl9Cgp9Cgp2b2lkIGRyYXdfZ2FtZSgpCnsKCWZvciAoaW50IGkgPSAwOyBpIDwgdGlsZXNfY291bnQ7IGkrKykKCXsKCQlyZW5kZXJfdGlsZSgmdGlsZXNbaV0pOwoJfQoKCglTRExfU2V0UmVuZGVyRHJhd0NvbG9yKHNkbF9yZW5kZXJlciwgMjUsIDI1LCAyNSwgMjU1KTsKCVNETF9SZWN0IHJlY3QgPSB7NDAwLCAwLCAyMDAsIFNDUkVFTl9IRUlHSFR9OwoJU0RMX1JlbmRlckZpbGxSZWN0KGRyYXdpbmdfY29udGV4dC5yZW5kZXJlciwgJnJlY3QpOwoJU0RMX1NldFJlbmRlckRyYXdDb2xvcihzZGxfcmVuZGVyZXIsIDUwLCA1MCwgNTAsIDI1NSk7CgoKCglyZW5kZXJfdGV4dCgiVGV0cmlzISIsIGZvbnQsIChTRExfQ29sb3IpIHsyNTUsIDI1NSwgMjU1fSwgNTAwLCAxMDAsIGNlbnRlcmVkKTsKCgoJY2hhciBidWZmZXJbMjU2XTsKCglzcHJpbnRmKGJ1ZmZlciwgIiVkIiwgc2NvcmUpOwoKCXJlbmRlcl90ZXh0KCJTY29yZToiLCBmb250LCAoU0RMX0NvbG9yKSB7MjU1LCAyNTUsIDI1NX0sIDUwMCwgMjAwLCBjZW50ZXJlZCk7CglyZW5kZXJfdGV4dChidWZmZXIsIGZvbnQsIChTRExfQ29sb3IpIHs5OSwgMTczLCAyNTV9LCA1MDAsIDI0MCwgY2VudGVyZWQpOwoKCXNwcmludGYoYnVmZmVyLCAiJWQiLCBsaW5lc19jbGVhcmVkKTsKCglyZW5kZXJfdGV4dCgiTGluZXM6IiwgZm9udCwgKFNETF9Db2xvcikgezI1NSwgMjU1LCAyNTV9LCA1MDAsIDM1MCwgY2VudGVyZWQpOwoJcmVuZGVyX3RleHQoYnVmZmVyLCBmb250LCAoU0RMX0NvbG9yKSB7MTYwLCAzNSwgMzB9LCA1MDAsIDM5MCwgY2VudGVyZWQpOwoKCglyZW5kZXJfdGV4dCgiTmV4dDoiLCBmb250LCAoU0RMX0NvbG9yKSB7MjU1LCAyNTUsIDI1NX0sIDUwMCwgNTAwLCBjZW50ZXJlZCk7CgoJaW50IGNvb3JkaW5hdGVzWzRdWzJdOwoJZ2V0X3RldHJvbWlub3MobmV4dF90ZXRyb21pbm8sIGNvb3JkaW5hdGVzKTsKCglpbnQgYWRkX3ggPSA1MDAgLSAzNjsKCWlmIChuZXh0X3RldHJvbWlubyA9PSBURVRST01JTk9fTykKCXsKCQlhZGRfeCA9IDUwMCAtIDIxOwoJfQoKCWlmIChuZXh0X3RldHJvbWlubyA9PSBURVRST01JTk9fSSkKCXsKCQlhZGRfeCA9IDUwMCAtIDQ4OwoJfQoKCWZvciAoaW50IGkgPSAwOyBpIDwgNDsgaSsrKQoJewoJCXJlbmRlcl9zY2FsZWQoZHJhd2luZ19jb250ZXh0LnRpbGVzZXQsIHswLCAoaW50KSBuZXh0X3RldHJvbWlubyAqIFRJTEVTSVpFLCBUSUxFU0laRSwgVElMRVNJWkV9LCBjb29yZGluYXRlc1tpXVswXSAqIFRJTEVTSVpFICsgMCArIChhZGRfeCkvMywgY29vcmRpbmF0ZXNbaV1bMV0gKiBUSUxFU0laRSArICg1NTApLzMsIDMpOwoJfQoKCgoJcmVuZGVyX3RleHQoIihjKSAyMDI1IiwgZm9udCwgKFNETF9Db2xvcikgezI1NSwgMjU1LCAyNTV9LCA1MDAsIDc1MCwgY2VudGVyZWQpOwoKCgoJU0RMX1NldFJlbmRlckRyYXdDb2xvcihzZGxfcmVuZGVyZXIsIDUwLCA1MCwgNTAsIDI1NSk7CgoJaWYgKGdhbWVvdmVyKQoJewoJCXJlbmRlcihkcmF3aW5nX2NvbnRleHQudGlsZXNldCwgezMyLCAwLCA4MCwgMTZ9LCBESVNQTEFZX1dJRFRIIC8gMiAtIDQwLCBESVNQTEFZX0hFSUdIVCAvIDIgLSA4KTsKCX0KfQoKCgoKCmludCBydW4oKQp7CglzcmFuZCh0aW1lKE5VTEwpKTsKCglpbnQgcXVpdCA9IDA7CgoJU0RMX0V2ZW50IGU7CgoJd2hpbGUgKCFxdWl0KQoJewoKCQlpbnQgc3RhcnRUaWNrcyA9IFNETF9HZXRUaWNrcygpOwoJCWZsb2F0IG5ld1RpbWUgPSBoaXJlVGltZUluU2Vjb25kcygpOwoJCWZsb2F0IGZyYW1lVGltZSA9IG5ld1RpbWUgLSBjdXJyZW50VGltZTsKCgkJZGVsdGFUaW1lID0gZnJhbWVUaW1lOwoKCQljdXJyZW50VGltZSA9IG5ld1RpbWU7CgkJYWNjdW11bGF0b3IgKz0gZnJhbWVUaW1lOwoKCQlnbG9iYWxUaW1lICs9IDEuMDsKCgkJd2hpbGUgKGFjY3VtdWxhdG9yID49IHRpbWVTdGVwKSB7CgoJCQl3aGlsZSAoU0RMX1BvbGxFdmVudCgmZSkgIT0gMCkKCQkJewoJCQkJaWYgKGV2ZW50cyhlKSA9PSAyKQoJCQkJewoJCQkJCXJldHVybiAyOwoJCQkJfQoJCQl9CgoJCQlhY2N1bXVsYXRvciAtPSB0aW1lU3RlcDsKCQl9CgoJCWFsbF90aW1lICsrOwoKCQkvLyAjIyBVcGRhdGUgIyMKCgkJdXBkYXRlKCk7CgoKCQkvLyAjIyBEcmF3ICMjCgoJCXJlbmRlcl9jbGVhcigpOwoKCQlkcmF3KCk7CgoJCXJlbmRlcl93aW5kb3coKTsKCgkJaW50IGZyYW1lVGlja3MgPSBTRExfR2V0VGlja3MoKSAtIHN0YXJ0VGlja3M7CgkJaWYgKGZyYW1lVGlja3MgPCAxMDAwL1JFRlJFU0hfUkFURSkgewoJCQlTRExfRGVsYXkoMTAwMC9SRUZSRVNIX1JBVEUgLSBmcmFtZVRpY2tzKTsKCQl9Cgl9CgoJcmV0dXJuIDA7Cn0KCgp2b2lkIGNsZWFudXAoKQp7CglzdG9wX2NsaWVudCgpOwoKCVNETF9EZXN0cm95UmVuZGVyZXIoc2RsX3JlbmRlcmVyKTsKCVNETF9EZXN0cm95V2luZG93KHNkbF93aW5kb3cpOwoKCVRURl9RdWl0KCk7CglTRExfUXVpdCgpOwp9CgppbnQgbWFpbihpbnQgYXJnYywgY2hhciogYXJndltdKQp7CglpZiAoaW5pdF9zZGwoKSA9PSAxKQoJewoJCXJldHVybiAxOwoJfQoKCXNldF90ZXRyb21pbm8oJmFjdGl2ZV90ZXRyb21pbm8sIHRpbGVzLCB0aWxlc19jb3VudCwgbmV4dF90ZXRyb21pbm8pOwoJbmV4dF90ZXRyb21pbm8gPSAoVGV0cm9taW5vVHlwZXMpIChyYW5kKCkgJSA3KTsKCXRpbGVzX2NvdW50ICs9IDQ7CgoJTWl4X011c2ljICogbXVzaWMgPSBNaXhfTG9hZE1VUygiZGF0YS9zb3VuZHRyYWNrLm1wMyIpOwoJaWYgKCFtdXNpYykKCXsKCQlwcmludGYoIkZhaWxlZCB0byBsb2FkIG11c2ljOiAlc1xuIiwgTWl4X0dldEVycm9yKCkpOwoJfQoKCWlmIChQTEFZX01VU0lDKQoJewoJCU1peF9QbGF5TXVzaWMobXVzaWMsIC0xKTsKCX0KCgoKCWZvbnQgPSBUVEZfT3BlbkZvbnQoImRhdGEvbmVzX2ZvbnQudHRmIiwxOCk7CglpZiAoIWZvbnQpCgl7CgkJcHJpbnRmKCJGYWlsZWQgdG8gbG9hZCBmb250ISBTRExfdHRmIEVycm9yOiAlc1xuIiwgVFRGX0dldEVycm9yKCkpOwoJCXJldHVybiAxOwoJfQoKCglpZiAoc3RhcnRfY2xpZW50KCIxOTIuMTY4LjE3OS4xMSIsIDgwODApID09IDEpCgl7CgkJcHJpbnRmKCJGYWlsZWQgdG8gY29ubmVjdCB0byBzZXJ2ZXJcbiIpOwoJCXJldHVybiAxOwoJfQoJcHJpbnRmKCJbSU5GT10gQ29ubmVjdGVkIHRvIHNlcnZlclxuIik7CgoKCXN0YXJ0X2xvYmJleSgpOwoKCglzdGFydF9nYW1lKCk7CgoKCglTRExfUXVpdCgpOwoKCWNsZWFudXAoKTsKCgoJcmV0dXJuIDA7Cn0KAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbBEAAAAAAABsEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "#include"
+					},
+					"CAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAAgAAAAAAAAACQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert_snippet",
+					{
+						"contents": "<$0>"
+					},
+					"AQAAAAkAAAAAAAAACwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACQAAAAAAAAAJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "SDL.zh"
+					},
+					"BgAAAAoAAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADgAAAAAAAAAAAAAADgAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAABAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACgAAAAAAAAAKAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					2,
+					"left_delete",
+					null,
+					"AgAAAA8AAAAAAAAADwAAAAAAAAABAAAAaA4AAAAAAAAADgAAAAAAAAABAAAAeg",
+					"AQAAAAAAAAABAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": "h"
+					},
+					"AQAAAA4AAAAAAAAADwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADgAAAAAAAAAOAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": "\nä"
+					},
+					"AgAAABAAAAAAAAAAEQAAAAAAAAAAAAAAEQAAAAAAAAASAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEAAAAAAAAAAQAAAAAAAAAP///////+9/"
+				],
+				[
+					14,
+					1,
+					"left_delete",
+					null,
+					"AQAAABEAAAAAAAAAEQAAAAAAAAACAAAAw6Q",
+					"AQAAAAAAAAABAAAAEgAAAAAAAAASAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "#include"
+					},
+					"CAAAABEAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAAATAAAAAAAAAAAAAAATAAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAFQAAAAAAAAAAAAAAFQAAAAAAAAAWAAAAAAAAAAAAAAAWAAAAAAAAABcAAAAAAAAAAAAAABcAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEQAAAAAAAAARAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAABkAAAAAAAAAGgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGQAAAAAAAAAZAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert_snippet",
+					{
+						"contents": "<$0>"
+					},
+					"AQAAABoAAAAAAAAAHAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGgAAAAAAAAAaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "stdio.h"
+					},
+					"BwAAABsAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB4AAAAAAAAAAAAAAB4AAAAAAAAAHwAAAAAAAAAAAAAAHwAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACEAAAAAAAAAAAAAACEAAAAAAAAAIgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGwAAAAAAAAAbAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": "\n\nitn"
+					},
+					"BQAAACMAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAlAAAAAAAAAAAAAAAlAAAAAAAAACYAAAAAAAAAAAAAACYAAAAAAAAAJwAAAAAAAAAAAAAAJwAAAAAAAAAoAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIwAAAAAAAAAjAAAAAAAAAP///////+9/"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": " mai"
+					},
+					"BAAAACgAAAAAAAAAKQAAAAAAAAAAAAAAKQAAAAAAAAAqAAAAAAAAAAAAAAAqAAAAAAAAACsAAAAAAAAAAAAAACsAAAAAAAAALAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKAAAAAAAAAAoAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"left_delete",
+					null,
+					"AQAAACUAAAAAAAAAJQAAAAAAAAAEAAAAaXRuIA",
+					"AQAAAAAAAAABAAAAKQAAAAAAAAAlAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"insert",
+					{
+						"characters": "int"
+					},
+					"AwAAACUAAAAAAAAAJgAAAAAAAAAAAAAAJgAAAAAAAAAnAAAAAAAAAAAAAAAnAAAAAAAAACgAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJQAAAAAAAAAlAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAACgAAAAAAAAAKQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKAAAAAAAAAAoAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": "n"
+					},
+					"AQAAACwAAAAAAAAALQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALAAAAAAAAAAsAAAAAAAAAP///////+9/"
+				],
+				[
+					30,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAC0AAAAAAAAALwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAC8AAAAAAAAAMAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALwAAAAAAAAAvAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAADAAAAAAAAAAMgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"AwAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAyAAAAAAAAADMAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMQAAAAAAAAAxAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					35,
+					1,
+					"insert",
+					{
+						"characters": "return"
+					},
+					"BgAAADMAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA1AAAAAAAAAAAAAAA1AAAAAAAAADYAAAAAAAAAAAAAADYAAAAAAAAANwAAAAAAAAAAAAAANwAAAAAAAAA4AAAAAAAAAAAAAAA4AAAAAAAAADkAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMwAAAAAAAAAzAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					36,
+					1,
+					"insert",
+					{
+						"characters": " 0;"
+					},
+					"AwAAADkAAAAAAAAAOgAAAAAAAAAAAAAAOgAAAAAAAAA7AAAAAAAAAAAAAAA7AAAAAAAAADwAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOQAAAAAAAAA5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					1,
+					"insert",
+					{
+						"characters": "\npritn"
+					},
+					"BwAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAANQAAAAAAAAAAAAAANQAAAAAAAAA2AAAAAAAAAAAAAAA2AAAAAAAAADcAAAAAAAAAAAAAADcAAAAAAAAAOAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMQAAAAAAAAAxAAAAAAAAAAAAAAAAwFpA"
+				],
+				[
+					39,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAADgAAAAAAAAAOgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOAAAAAAAAAA4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Left Right.sublime-macro"
+					},
+					"AgAAADgAAAAAAAAAOAAAAAAAAAABAAAAKDgAAAAAAAAAOAAAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAAOQAAAAAAAAA5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					2,
+					"left_delete",
+					null,
+					"AgAAADcAAAAAAAAANwAAAAAAAAABAAAAbjYAAAAAAAAANgAAAAAAAAABAAAAdA",
+					"AQAAAAAAAAABAAAAOAAAAAAAAAA4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					42,
+					1,
+					"insert",
+					{
+						"characters": "ntf"
+					},
+					"AwAAADYAAAAAAAAANwAAAAAAAAAAAAAANwAAAAAAAAA4AAAAAAAAAAAAAAA4AAAAAAAAADkAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANgAAAAAAAAA2AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAADkAAAAAAAAAOwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOQAAAAAAAAA5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAADoAAAAAAAAAPAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOgAAAAAAAAA6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": "Helll"
+					},
+					"BQAAADsAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAAA9AAAAAAAAAAAAAAA9AAAAAAAAAD4AAAAAAAAAAAAAAD4AAAAAAAAAPwAAAAAAAAAAAAAAPwAAAAAAAABAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOwAAAAAAAAA7AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					46,
+					1,
+					"left_delete",
+					null,
+					"AQAAAD8AAAAAAAAAPwAAAAAAAAABAAAAbA",
+					"AQAAAAAAAAABAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					47,
+					1,
+					"insert",
+					{
+						"characters": "o,"
+					},
+					"AgAAAD8AAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABBAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPwAAAAAAAAA/AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					48,
+					1,
+					"insert",
+					{
+						"characters": " World!\\m"
+					},
+					"CQAAAEEAAAAAAAAAQgAAAAAAAAAAAAAAQgAAAAAAAABDAAAAAAAAAAAAAABDAAAAAAAAAEQAAAAAAAAAAAAAAEQAAAAAAAAARQAAAAAAAAAAAAAARQAAAAAAAABGAAAAAAAAAAAAAABGAAAAAAAAAEcAAAAAAAAAAAAAAEcAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABJAAAAAAAAAAAAAABJAAAAAAAAAEoAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQQAAAAAAAABBAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					51,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEkAAAAAAAAASQAAAAAAAAABAAAAbQ",
+					"AQAAAAAAAAABAAAASgAAAAAAAABKAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					52,
+					1,
+					"insert",
+					{
+						"characters": "m"
+					},
+					"AQAAAEkAAAAAAAAASgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASQAAAAAAAABJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					53,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEkAAAAAAAAASQAAAAAAAAABAAAAbQ",
+					"AQAAAAAAAAABAAAASgAAAAAAAABKAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					54,
+					1,
+					"insert",
+					{
+						"characters": "n"
+					},
+					"AQAAAEkAAAAAAAAASgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASQAAAAAAAABJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					56,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAEwAAAAAAAAATQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATAAAAAAAAABMAAAAAAAAAP///////+9/"
+				],
+				[
+					57,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEwAAAAAAAAATAAAAAAAAAABAAAAOg",
+					"AQAAAAAAAAABAAAATQAAAAAAAABNAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					58,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAAEwAAAAAAAAATQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATAAAAAAAAABMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					60,
+					1,
+					"right_delete",
+					null,
+					"AQAAAC8AAAAAAAAALwAAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAALwAAAAAAAAAvAAAAAAAAAAAAAAAA4G5A"
+				],
+				[
+					63,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAC8AAAAAAAAAMAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALwAAAAAAAAAvAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					65,
+					1,
+					"insert",
+					{
+						"characters": "char"
+					},
+					"BAAAAC4AAAAAAAAALwAAAAAAAAAAAAAALwAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADEAAAAAAAAAAAAAADEAAAAAAAAAMgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALgAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					66,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAADIAAAAAAAAAMwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMgAAAAAAAAAyAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					68,
+					1,
+					"left_delete",
+					null,
+					"AQAAAC4AAAAAAAAALgAAAAAAAAAFAAAAY2hhciA",
+					"AQAAAAAAAAABAAAAMwAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					69,
+					1,
+					"insert",
+					{
+						"characters": "itn"
+					},
+					"AwAAAC4AAAAAAAAALwAAAAAAAAAAAAAALwAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALgAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					70,
+					1,
+					"insert",
+					{
+						"characters": " ar"
+					},
+					"AwAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAADQAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMQAAAAAAAAAxAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					72,
+					1,
+					"left_delete",
+					null,
+					"AQAAAC4AAAAAAAAALgAAAAAAAAAGAAAAaXRuIGFy",
+					"AQAAAAAAAAABAAAANAAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					73,
+					1,
+					"insert",
+					{
+						"characters": "int"
+					},
+					"AwAAAC4AAAAAAAAALwAAAAAAAAAAAAAALwAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALgAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					74,
+					1,
+					"insert",
+					{
+						"characters": " argc,"
+					},
+					"BgAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAANQAAAAAAAAAAAAAANQAAAAAAAAA2AAAAAAAAAAAAAAA2AAAAAAAAADcAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMQAAAAAAAAAxAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					75,
+					1,
+					"insert",
+					{
+						"characters": " cahr"
+					},
+					"BQAAADcAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA5AAAAAAAAAAAAAAA5AAAAAAAAADoAAAAAAAAAAAAAADoAAAAAAAAAOwAAAAAAAAAAAAAAOwAAAAAAAAA8AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANwAAAAAAAAA3AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					76,
+					3,
+					"left_delete",
+					null,
+					"AwAAADsAAAAAAAAAOwAAAAAAAAABAAAAcjoAAAAAAAAAOgAAAAAAAAABAAAAaDkAAAAAAAAAOQAAAAAAAAABAAAAYQ",
+					"AQAAAAAAAAABAAAAPAAAAAAAAAA8AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					77,
+					1,
+					"insert",
+					{
+						"characters": "har"
+					},
+					"AwAAADkAAAAAAAAAOgAAAAAAAAAAAAAAOgAAAAAAAAA7AAAAAAAAAAAAAAA7AAAAAAAAADwAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOQAAAAAAAAA5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					78,
+					1,
+					"insert",
+					{
+						"characters": " **"
+					},
+					"AwAAADwAAAAAAAAAPQAAAAAAAAAAAAAAPQAAAAAAAAA+AAAAAAAAAAAAAAA+AAAAAAAAAD8AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPAAAAAAAAAA8AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					79,
+					1,
+					"insert",
+					{
+						"characters": " A"
+					},
+					"AgAAAD8AAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABBAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPwAAAAAAAAA/AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					80,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEAAAAAAAAAAQAAAAAAAAAABAAAAQQ",
+					"AQAAAAAAAAABAAAAQQAAAAAAAABBAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					81,
+					1,
+					"insert",
+					{
+						"characters": "argv"
+					},
+					"BAAAAEAAAAAAAAAAQQAAAAAAAAAAAAAAQQAAAAAAAABCAAAAAAAAAAAAAABCAAAAAAAAAEMAAAAAAAAAAAAAAEMAAAAAAAAARAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					84,
+					1,
+					"left_delete",
+					null,
+					"AQAAAD4AAAAAAAAAPgAAAAAAAAABAAAAKg",
+					"AQAAAAAAAAABAAAAPwAAAAAAAAA/AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					88,
+					1,
+					"left_delete",
+					null,
+					"AQAAADwAAAAAAAAAPAAAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAPQAAAAAAAAA9AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					90,
+					1,
+					"insert_snippet",
+					{
+						"contents": "[$0]"
+					},
+					"AQAAAEIAAAAAAAAARAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQgAAAAAAAABCAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 1227,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					2,
+					"left_delete",
+					null,
+					"AgAAAPsAAAAAAAAA+wAAAAAAAAAlAAAALWxTREwyX2ltYWdlIC1sU0RMMl9taXhlciAtbFNETDJfdHRmIPoAAAAAAAAA+gAAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAIAEAAAAAAAD7AAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"tta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"colro",
+				"UI: Select Color Scheme"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"th",
+				"UI: Select Theme"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sche",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"view",
+				"View: Toggle Distraction Free"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"set",
+				"Set Syntax: Python"
+			],
+			[
+				"package",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 148.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/ruben/Desktop/c projects/sdl-mandelbrot"
+	],
+	"file_history":
+	[
+		"/C/Users/ruben/Desktop/c projects/sdl-mandelbrot/src/renderer.h",
+		"/C/Users/ruben/Desktop/c projects/sdl-mandelbrot/src/main.h",
+		"/C/Users/ruben/Desktop/c projects/sdl-mandelbrot/src/renderer.c",
+		"/C/Users/ruben/Desktop/c projects/sdl-mandelbrot/Makefile",
+		"/C/Users/ruben/Desktop/c projects/sdl-mandelbrot/src/client/client.c",
+		"/C/Users/ruben/Desktop/c projects/sdl-mandelbrot/src/client/client.h",
+		"/C/Users/ruben/Desktop/c projects/sdl-mandelbrot/src/globals.h",
+		"/C/Users/ruben/Desktop/c projects/sdl-mandelbrot/src/tile.h",
+		"/C/Users/ruben/Desktop/c projects/sdl-mandelbrot/src/tetromino.c",
+		"/C/Users/ruben/Desktop/c projects/sdl-mandelbrot/src/main.c",
+		"/C/Users/ruben/Desktop/c projects/mini server and client/client/src/client.c",
+		"/C/Users/ruben/Desktop/c projects/mini server and client/server/Makefile",
+		"/C/Users/ruben/Desktop/c projects/mini server and client/client/Makefile",
+		"/C/Users/ruben/Desktop/c projects/tetris online/Makefile",
+		"/C/Users/ruben/Desktop/c projects/tetris online/src/client/Makefile",
+		"/C/Users/ruben/Desktop/c++ projects/Insula Server-Client/src/server.cpp",
+		"/C/Users/ruben/Desktop/c projects/mini server and client/client/src/mainentry.c",
+		"/C/Users/ruben/Desktop/c projects/mini server and client/client/src/client.h",
+		"/C/Users/ruben/Desktop/c projects/mini server and client/server/src/server.h",
+		"/C/Users/ruben/Desktop/c projects/mini server and client/server/src/server.c",
+		"/C/Users/ruben/Desktop/c projects/mini server and client/server/src/mainentry.c",
+		"/C/Users/ruben/Desktop/c++ projects/Insula Server-Client/src/client_no_wait.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/Makefile",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/tile.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/tile.c",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/tetromino.c",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/tetromino.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/globals.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/renderer.c",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/renderer.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/main.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/Makefile",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/main.c",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/Makefile - Release",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/tetromino.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/main.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/tile.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/tetromino.c",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/block.c",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/main.c",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/block.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/tile.c",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/globals.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/renderer.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/drawing_context.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/renderer.c",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/app.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/app.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/renderer.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/renderer.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/utils.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/utils.c",
+		"/C/Users/ruben/Desktop/c++ projects/dearimgui test/src/main.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/drawing_context.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/main.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/object.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/object.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/kinetic_body/kinetic_body.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/kinetic_body/kinetic_body.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/player.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/tile.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/tile.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/editor/editor.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/object_manager.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/object_manager.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/DELETE quick test/quicktest.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/game.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/editor/editor_ui_renderer.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/Makefile",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/editor/editor.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/editor/editor_ui_renderer.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/game.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/main.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/animation_handler/animation_handler.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/animation_handler/animation_handler.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/player.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/build/animation_handler/animation_handler.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/types.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/scene.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/game_ui_renderer.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/README.md",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/globals.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/ui_renderer/ui_renderer.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/scene.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/game_ui_renderer.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/game_context.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/entity.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/drawing_context.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/README.md",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/globals.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/app.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/scene.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/app.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/game/game.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/scene.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/entity_manager.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/main.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/renderer.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/renderer.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/game/game_context.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/entity.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/entity_manager.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/ui_renderer/ui_renderer.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/entity.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/tile_manager.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/entity_manager.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/tile_manager.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/ui_renderer/ui_renderer.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/Makefile_broken",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/sprite/sprite.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/sprite/sprite.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/entity_manager.cpp",
+		"/C/Users/ruben/Desktop/python_programme/nitro_drift/trackeditor/trackeditor.py",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/object_manager.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/object_manager.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/include/SDL2/SDL_events.h",
+		"/C/Users/ruben/Desktop/weatherballon/calculations/calculate_force.py",
+		"/C/Users/ruben/Desktop/pi calculator/spigot algorythm/main.c",
+		"/C/Users/ruben/Desktop/c projects/snake/include/src/game.h",
+		"/C/Users/ruben/Desktop/c projects/snake/src/game.c",
+		"/C/Users/ruben/Desktop/c projects/snake/src/main.c",
+		"/C/Users/ruben/Desktop/c projects/snake/src/head.c",
+		"/C/Users/ruben/Desktop/c projects/snake/include/src/app.h",
+		"/C/Users/ruben/Desktop/c projects/snake/src/app.c",
+		"/C/Users/ruben/Desktop/c++ projects/Chat app ui/imgui/imgui_widgets.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/Chat app ui/imgui/imgui.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/Chat app ui/imgui/imgui_demo.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/Chat app ui/src/main.cpp"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 120.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"lineclrd",
+			"add_tile",
+			"run",
+			"events",
+			"QUIT",
+			"SDL_Quit()",
+			"set_message",
+			"update",
+			"init",
+			"client"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/main.c",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								250,
+								250
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/build-debug.sublime-build",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"makie",
+				"Makefile"
+			],
+			[
+				"main",
+				"src\\main.c"
+			],
+			[
+				"main.h",
+				"src\\main.h"
+			],
+			[
+				"main.",
+				"src\\main.c"
+			],
+			[
+				"rnder",
+				"src\\renderer.h"
+			],
+			[
+				"render",
+				"src\\renderer.c"
+			],
+			[
+				"main.c",
+				"src\\main.c"
+			],
+			[
+				"tet",
+				"src\\tetromino.c"
+			],
+			[
+				"tile",
+				"src\\tile.h"
+			],
+			[
+				"clinet",
+				"src\\client\\client.c"
+			],
+			[
+				"clien",
+				"src\\client\\client.h"
+			],
+			[
+				"glo",
+				"src\\globals.h"
+			],
+			[
+				"make",
+				"Makefile"
+			],
+			[
+				"clie",
+				"src\\client\\client.c"
+			],
+			[
+				"client",
+				"src\\client\\client.h"
+			],
+			[
+				"mka",
+				"Makefile"
+			],
+			[
+				"ma",
+				"client\\Makefile"
+			],
+			[
+				"cli",
+				"client\\src\\client.h"
+			],
+			[
+				"ser",
+				"server\\src\\server.h"
+			],
+			[
+				"mak",
+				"server\\Makefile"
+			],
+			[
+				"tetr",
+				"src\\tetromino.c"
+			],
+			[
+				"redre",
+				"src\\renderer.h"
+			],
+			[
+				"te",
+				"src\\tetromino.c"
+			],
+			[
+				"rendre",
+				"src\\renderer.c"
+			],
+			[
+				"gl",
+				"src\\globals.h"
+			],
+			[
+				"mainc",
+				"src\\main.c"
+			],
+			[
+				"g",
+				"src\\globals.h"
+			],
+			[
+				"tiel",
+				"src\\tile.h"
+			],
+			[
+				"mian",
+				"src\\main.c"
+			],
+			[
+				"blo",
+				"src\\block.h"
+			],
+			[
+				"",
+				"src\\tile.h"
+			],
+			[
+				"tile.c",
+				"src\\tile.c"
+			],
+			[
+				"glbo",
+				"src\\globals.h"
+			],
+			[
+				"glob",
+				"src\\globals.h"
+			],
+			[
+				"ren",
+				"src\\renderer.h"
+			],
+			[
+				"min",
+				"src\\main.c"
+			],
+			[
+				"u",
+				"src\\utils.h"
+			],
+			[
+				"ut",
+				"src\\utils.c"
+			],
+			[
+				"uti",
+				"src\\utils.h"
+			],
+			[
+				"mai",
+				"src\\main.c"
+			],
+			[
+				"dra",
+				"src\\drawing_context.h"
+			],
+			[
+				"obje",
+				"src\\engine\\object_manager.cpp"
+			],
+			[
+				"ob",
+				"src\\engine\\object.hpp"
+			],
+			[
+				"qui",
+				"DELETE quick test\\quicktest.cpp"
+			],
+			[
+				"objec",
+				"src\\engine\\object_manager.cpp"
+			],
+			[
+				"edi",
+				"src\\editor\\editor.cpp"
+			],
+			[
+				"edir",
+				"src\\editor\\editor.cpp"
+			],
+			[
+				"o",
+				"src\\engine\\object_manager.cpp"
+			],
+			[
+				"kine",
+				"src\\kinetic_body\\kinetic_body.hpp"
+			],
+			[
+				"k",
+				"src\\kinetic_body\\kinetic_body.hpp"
+			],
+			[
+				"player",
+				"src\\game\\player.hpp"
+			],
+			[
+				"oc",
+				"src\\engine\\object.cpp"
+			],
+			[
+				"omh",
+				"src\\engine\\object_manager.hpp"
+			],
+			[
+				"om",
+				"src\\engine\\object_manager.cpp"
+			],
+			[
+				"obj",
+				"src\\engine\\object_manager.hpp"
+			],
+			[
+				"game",
+				"src\\game\\game.cpp"
+			],
+			[
+				"onjr",
+				"src\\engine\\object_manager.cpp"
+			],
+			[
+				"p",
+				"src\\game\\player.hpp"
+			],
+			[
+				"ed",
+				"src\\editor\\editor.cpp"
+			],
+			[
+				"obe",
+				"src\\engine\\object_manager.cpp"
+			],
+			[
+				"o mh",
+				"src\\engine\\object_manager.hpp"
+			],
+			[
+				"ei",
+				"src\\editor\\editor.cpp"
+			],
+			[
+				"oj",
+				"src\\engine\\object_manager.cpp"
+			],
+			[
+				"bje",
+				"src\\engine\\object_manager.hpp"
+			],
+			[
+				"e ui c",
+				"src\\editor\\editor_ui_renderer.cpp"
+			],
+			[
+				"e ui h",
+				"src\\editor\\editor_ui_renderer.hpp"
+			],
+			[
+				"app",
+				"src\\engine\\app.cpp"
+			],
+			[
+				"eidr",
+				"src\\editor\\editor.hpp"
+			],
+			[
+				"eid",
+				"src\\editor\\editor.cpp"
+			],
+			[
+				"a",
+				"src\\animation_handler\\animation_handler.cpp"
+			],
+			[
+				"amin",
+				"src\\animation_handler\\animation_handler.cpp"
+			],
+			[
+				"a cpp",
+				"src\\animation_handler\\animation_handler.cpp"
+			],
+			[
+				"ani",
+				"build\\animation_handler\\animation_handler.hpp"
+			],
+			[
+				"anima",
+				"build\\animation_handler\\animation_handler.cpp"
+			],
+			[
+				"am",
+				"build\\animation_handler\\animation_handler.hpp"
+			],
+			[
+				"pl",
+				"src\\game\\player.hpp"
+			],
+			[
+				"til",
+				"src\\game\\tile.hpp"
+			],
+			[
+				"playre",
+				"src\\game\\player.cpp"
+			],
+			[
+				"gmae",
+				"src\\game\\game.cpp"
+			],
+			[
+				"ki",
+				"src\\kinetic_body\\kinetic_body.cpp"
+			],
+			[
+				"tpye",
+				"src\\engine\\types.hpp"
+			],
+			[
+				"object",
+				"src\\engine\\object_manager.hpp"
+			],
+			[
+				"c gui",
+				"src\\game\\game_ui_renderer.cpp"
+			],
+			[
+				"scene",
+				"src\\engine\\scene.hpp"
+			],
+			[
+				"c game",
+				"src\\game\\game.cpp"
+			],
+			[
+				"kin",
+				"src\\kinetic_body\\kinetic_body.cpp"
+			],
+			[
+				"h gui",
+				"src\\game\\game_ui_renderer.hpp"
+			],
+			[
+				"rendere",
+				"src\\engine\\renderer.cpp"
+			],
+			[
+				"ui",
+				"src\\ui_renderer\\ui_renderer.hpp"
+			],
+			[
+				"renderer",
+				"src\\engine\\renderer.cpp"
+			],
+			[
+				"scee",
+				"src\\engine\\scene.cpp"
+			],
+			[
+				"scne",
+				"src\\engine\\scene.hpp"
+			],
+			[
+				"rea",
+				"src\\README.md"
+			],
+			[
+				"read",
+				"src\\README.md"
+			],
+			[
+				"ga",
+				"src\\game\\game.hpp"
+			],
+			[
+				"enit",
+				"src\\engine\\entity.hpp"
+			],
+			[
+				"globa",
+				"src\\engine\\globals.hpp"
+			],
+			[
+				"draw",
+				"src\\engine\\drawing_context.hpp"
+			],
+			[
+				"enitt",
+				"src\\engine\\entity_manager.cpp"
+			],
+			[
+				"ent",
+				"src\\engine\\entity_manager.hpp"
+			],
+			[
+				"scen",
+				"src\\engine\\scene.cpp"
+			],
+			[
+				"ap",
+				"src\\engine\\app.cpp"
+			],
+			[
+				"sce",
+				"src\\engine\\scene.hpp"
+			],
+			[
+				"entit",
+				"src\\engine\\entity.hpp"
+			],
+			[
+				"globas",
+				"super mario bros - design change\\src\\engine\\globals.hpp"
+			],
+			[
+				"scnee",
+				"src\\engine\\scene.hpp"
+			],
+			[
+				"e ui re cp",
+				"src\\editor\\editor_ui_renderer.cpp"
+			],
+			[
+				"gla",
+				"src\\engine\\globals.hpp"
+			],
+			[
+				"e ui re c",
+				"src\\editor\\editor_ui_renderer.cpp"
+			],
+			[
+				"payer",
+				"src\\game\\player.hpp"
+			],
+			[
+				"pla",
+				"src\\game\\player.cpp"
+			],
+			[
+				"en",
+				"src\\engine\\entity.cpp"
+			],
+			[
+				"e",
+				"src\\engine\\entity.hpp"
+			],
+			[
+				"edo",
+				"src\\editor\\editor.hpp"
+			],
+			[
+				"e ui ",
+				"src\\editor\\editor_ui_renderer.cpp"
+			],
+			[
+				"t",
+				"src\\game\\tile.cpp"
+			],
+			[
+				"ti",
+				"src\\game\\tile.cpp"
+			],
+			[
+				"e ui",
+				"src\\editor\\editor_ui_renderer.cpp"
+			],
+			[
+				"ty",
+				"src\\engine\\types.hpp"
+			],
+			[
+				"tpyes",
+				"src\\engine\\types.hpp"
+			],
+			[
+				"type",
+				"src\\engine\\types.hpp"
+			],
+			[
+				"go",
+				"src\\engine\\globals.hpp"
+			],
+			[
+				" ",
+				"src\\editor\\editor_ui_renderer.cpp"
+			],
+			[
+				"eit",
+				"src\\game\\entity_manager.hpp"
+			],
+			[
+				"tye",
+				"src\\engine\\types.hpp"
+			],
+			[
+				"eni",
+				"src\\engine\\entity.hpp"
+			],
+			[
+				"glb",
+				"src\\engine\\globals.hpp"
+			],
+			[
+				"euid",
+				"src\\editor\\editor_ui_renderer.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 499.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 378.0
+	},
+	"select_symbol":
+	{
+		"height": 275.0,
+		"last_filter": "rend",
+		"selected_items":
+		[
+			[
+				"rend",
+				"render_windows"
+			],
+			[
+				"window",
+				"render_windows"
+			],
+			[
+				"draw",
+				"draw"
+			],
+			[
+				"death",
+				"Death"
+			]
+		],
+		"width": 584.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
