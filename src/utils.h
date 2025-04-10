@@ -12,3 +12,8 @@ typedef struct PixelData {
 	Uint8 g;
 
 } PixelData;
+
+
+double get_normalised_x(double x, double screen_width, double n_x);
+
+double get_normalised_y(double y, double screen_height, double n_y);

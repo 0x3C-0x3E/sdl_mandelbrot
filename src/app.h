@@ -5,6 +5,7 @@
 #include <stdbool.h>
 
 #include "utils.h"
+#include "ui.h"
 
 typedef struct App {
 	SDL_Window * window;
@@ -15,6 +16,9 @@ typedef struct App {
 } App;
 
 extern int MAX_ITERATIONS;
+
+extern double n_x;
+extern double n_y;
 
 int init_sdl();
 
@@ -30,4 +34,7 @@ void app_draw(App* app);
 
 void app_quit(App* app);
 
-PixelData mandelbrot(App* app, int input_cx, int input_cy);
+int mandelbrot(double cx, double cy); // returns the iterations
+
+PixelData fragment_compute(App* app, int input_cx, int input_cy);
+

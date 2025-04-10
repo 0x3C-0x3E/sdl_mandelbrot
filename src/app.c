@@ -1,6 +1,9 @@
 #include "app.h"
 
-int MAX_ITERATIONS = 2;
+int MAX_ITERATIONS = 100;
+
+double n_x = -0.25f;
+double n_y = 0.0f;
 
 int init_sdl() {
 	if (SDL_Init(SDL_INIT_VIDEO) != 0) {
@@ -25,6 +28,7 @@ int app_init(App* app) {
 		app->screen_height,
 		SDL_WINDOW_SHOWN
 	);
+	SDL_SetWindowResizable(app->window, SDL_TRUE);
 
 	app->renderer = SDL_CreateRenderer(
 		app->window, 
@@ -39,6 +43,10 @@ int app_init(App* app) {
 		app->screen_height
 	);
 
+	if (init_imgui(app->window, app->renderer) != 0) {
+		return 1;
+	}
+
 	SDL_SetRenderDrawColor(app->renderer, 0, 0, 0, 255);
 
 	return 0;
@@ -51,7 +59,7 @@ void app_run(App* app)
 	while (!quit) {
 		SDL_Delay(33);
 		app_handle_events(app);
-		app_update(app);
+		//app_update(app);
 		app_draw(app);
 	}
 }
@@ -66,6 +74,12 @@ void app_handle_events(App* app)
 			// this is just temporary cause idk what to do
 			exit(0);
 		}
+		if (e.type == SDL_KEYDOWN) {
+			if (e.key.keysym.sym == SDLK_SPACE) {
+				printf("COMPUTING!\n");
+				app_update(app);
+			}
+		}
 	}
 }
 
@@ -75,7 +89,7 @@ void app_update(App* app)
 
 	for (int y = 0; y < app->screen_height; y++) {
 		for (int x = 0; x < app->screen_width; x++) {
-			PixelData pixel_data = mandelbrot(app, x,y);
+			PixelData pixel_data = fragment_compute(app, x, y);
 			set_pixels(pixel_buffer, x, y, app->screen_width, app->screen_height, pixel_data.r, pixel_data.g, pixel_data.b, 255);
 		}
 	}
@@ -85,7 +99,9 @@ void app_update(App* app)
 void app_draw(App* app)
 {
 	SDL_RenderClear(app->renderer);
+	ui_draw();
 	SDL_RenderCopy(app->renderer, app->screen_buffer, NULL, NULL);
+
 	SDL_RenderPresent(app->renderer);
 }
 
@@ -98,42 +114,40 @@ void app_quit(App* app)
 	SDL_Quit();
 }
 
-PixelData mandelbrot(App* app, int input_cx, int input_cy)
+int mandelbrot(double cx, double cy)
+{
+	int iterations = 0;
+	double x = 0.0f;
+	double y = 0.0f;
+
+	while(x*x + y*y <= 16.0f)
+	{
+		double temp = x*x - y*y + cx;
+		y = 2*x*y + cy;
+		x = temp;
+
+		iterations ++;
+		if (iterations > MAX_ITERATIONS)
+			return 0;
+	}
+	return MAX_ITERATIONS;
+}
+
+PixelData fragment_compute(App* app, int input_cx, int input_cy)
 {
 	PixelData pixel_data =  {
 		.r = 0,
-		.g = 0,
-		.b = 0
+		.b = 0,
+		.g = 0
 	};
 
-	double cx = ((double) input_cx) / ((double) app->screen_width); 
-	double cy = ((double) input_cy) / ((double) app->screen_height);
+	double cx = get_normalised_x((double) input_cx, (double) app->screen_height, n_x);
+	double cy = get_normalised_y((double) input_cy, (double) app->screen_height, n_y);
 
-	//printf("SX:%d, SY:%d, CX:%f, CY:%f \n", input_cx, input_cy, cx, cy);
-
-
-	double x = 0;
-	double y = 0;
-
-	for (int i = 0; i < MAX_ITERATIONS; i++)
-	{
-		double x1 = x*x - y*y + cx;
-		double y1 = 2*x*y + cy;
-
-		x = x1;
-		y = y1;
-
-		//printf("	X1:%f, Y1:%f \n", x1, y1);
-
-	}
-
-	//printf("SX:%d, SY:%d, X:%f, Y:%f \n", input_cx, input_cy, x, y);
-	printf("SX:%d, SY:%d, CX:%f, CY:%f, X:%f, Y:%f\n", input_cx, input_cy, cx, cy, x, y);
-
-
-	if (abs(x) > 2 || abs(y) > 2) {
-		pixel_data.r = 255;
-		pixel_data.g = 255;
+	int iterations = mandelbrot(cx, cy);
+	if (iterations == MAX_ITERATIONS) {
+		pixel_data.r = 0;
+		pixel_data.g = 0;
 		pixel_data.b = 255;
 	}
 
