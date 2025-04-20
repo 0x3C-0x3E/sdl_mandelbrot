@@ -5,7 +5,6 @@
 #include <stdbool.h>
 
 #include "utils.h"
-#include "ui.h"
 
 typedef struct App {
 	SDL_Window * window;
@@ -13,6 +12,10 @@ typedef struct App {
 	int screen_width;
 	int screen_height;
 	SDL_Texture * screen_buffer;
+
+	double zoom;
+	double offset_x;
+	double offset_y;
 } App;
 
 extern int MAX_ITERATIONS;

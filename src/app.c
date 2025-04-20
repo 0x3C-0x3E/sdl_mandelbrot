@@ -5,6 +5,10 @@ int MAX_ITERATIONS = 100;
 double n_x = -0.25f;
 double n_y = 0.0f;
 
+bool dragging = false;
+int drag_x = 0;
+int drag_y = 0;
+
 int init_sdl() {
 	if (SDL_Init(SDL_INIT_VIDEO) != 0) {
 		printf("Could not init SDL, Error: %s\n", SDL_GetError());
@@ -42,11 +46,7 @@ int app_init(App* app) {
 		app->screen_width,
 		app->screen_height
 	);
-
-	if (init_imgui(app->window, app->renderer) != 0) {
-		return 1;
-	}
-
+	
 	SDL_SetRenderDrawColor(app->renderer, 0, 0, 0, 255);
 
 	return 0;
@@ -59,7 +59,7 @@ void app_run(App* app)
 	while (!quit) {
 		SDL_Delay(33);
 		app_handle_events(app);
-		//app_update(app);
+		app_update(app);
 		app_draw(app);
 	}
 }
@@ -76,8 +76,29 @@ void app_handle_events(App* app)
 		}
 		if (e.type == SDL_KEYDOWN) {
 			if (e.key.keysym.sym == SDLK_SPACE) {
-				printf("COMPUTING!\n");
-				app_update(app);
+				app->zoom += 2.0f;
+			}
+
+			if (e.key.keysym.sym == SDLK_LEFT) {
+				app->offset_x -= 0.5f / app->zoom;
+			}
+
+			if (e.key.keysym.sym == SDLK_RIGHT) {
+				app->offset_x += 0.5f / app->zoom;
+			}
+
+			if (e.key.keysym.sym == SDLK_UP) {
+				app->offset_y -= 0.5f / app->zoom;
+			}
+
+			if (e.key.keysym.sym == SDLK_DOWN) {
+				app->offset_y += 0.5f / app->zoom;
+			}
+		}
+		if (e.type == SDL_WINDOWEVENT){
+			if (e.window.event == SDL_WINDOWEVENT_RESIZED) {
+				app->screen_width = e.window.data1;
+				app->screen_height = e.window.data2;
 			}
 		}
 	}
@@ -85,6 +106,16 @@ void app_handle_events(App* app)
 
 void app_update(App* app)
 {
+	SDL_DestroyTexture(app->screen_buffer);
+	app->screen_buffer = SDL_CreateTexture(
+		app->renderer,
+		SDL_PIXELFORMAT_RGBA8888,
+		SDL_TEXTUREACCESS_STREAMING,
+		app->screen_width,
+		app->screen_height
+	);
+
+
 	Uint32* pixel_buffer = (Uint32*)malloc(app->screen_width * app->screen_height * sizeof(Uint32)); 
 
 	for (int y = 0; y < app->screen_height; y++) {
@@ -94,12 +125,13 @@ void app_update(App* app)
 		}
 	}
 	update_texture(app->screen_buffer, pixel_buffer, app->screen_width, app->screen_height);
+	free(pixel_buffer);
 }
 
 void app_draw(App* app)
 {
 	SDL_RenderClear(app->renderer);
-	ui_draw();
+
 	SDL_RenderCopy(app->renderer, app->screen_buffer, NULL, NULL);
 
 	SDL_RenderPresent(app->renderer);
@@ -128,9 +160,9 @@ int mandelbrot(double cx, double cy)
 
 		iterations ++;
 		if (iterations > MAX_ITERATIONS)
-			return 0;
+			return MAX_ITERATIONS;
 	}
-	return MAX_ITERATIONS;
+	return iterations;
 }
 
 PixelData fragment_compute(App* app, int input_cx, int input_cy)
@@ -141,15 +173,17 @@ PixelData fragment_compute(App* app, int input_cx, int input_cy)
 		.g = 0
 	};
 
-	double cx = get_normalised_x((double) input_cx, (double) app->screen_height, n_x);
-	double cy = get_normalised_y((double) input_cy, (double) app->screen_height, n_y);
+	// double cx = get_normalised_x((double) input_cx, (double) app->screen_height, n_x);
+	// double cy = get_normalised_y((double) input_cy, (double) app->screen_height, n_y);
+	//
+	Coordinates coords = screen_to_complex(input_cx, input_cy, app->screen_width, app->screen_height, app->zoom, app->offset_x, app->offset_y);
+
+	double cx = coords.x;
+	double cy = coords.y;
 
 	int iterations = mandelbrot(cx, cy);
-	if (iterations == MAX_ITERATIONS) {
-		pixel_data.r = 0;
-		pixel_data.g = 0;
-		pixel_data.b = 255;
-	}
+	
+	get_color(iterations, MAX_ITERATIONS, &pixel_data.r, &pixel_data.g, &pixel_data.b);
 
 	return pixel_data;
 }
