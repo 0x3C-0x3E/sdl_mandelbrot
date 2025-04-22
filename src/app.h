@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <math.h>
 
 #include "utils.h"
 
@@ -12,10 +13,17 @@ typedef struct App {
 	int screen_width;
 	int screen_height;
 	SDL_Texture * screen_buffer;
+	
+	Coordinates start_point;
+	Coordinates end_point;
 
-	double zoom;
-	double offset_x;
-	double offset_y;
+	bool is_dragging;
+
+	int drag_start_x;
+	int drag_start_y;
+
+	int drag_end_x;
+	int drag_end_y;
 } App;
 
 extern int MAX_ITERATIONS;

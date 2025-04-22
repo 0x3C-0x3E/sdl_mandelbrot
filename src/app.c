@@ -56,10 +56,12 @@ void app_run(App* app)
 {
 	bool quit = false;
 
+	app_update(app);
+
 	while (!quit) {
 		SDL_Delay(33);
 		app_handle_events(app);
-		app_update(app);
+		//app_update(app);
 		app_draw(app);
 	}
 }
@@ -67,6 +69,10 @@ void app_run(App* app)
 void app_handle_events(App* app)
 {
 	SDL_Event e;
+	
+	int x,y;
+	SDL_GetMouseState(&x, &y);
+
 	while (SDL_PollEvent(&e) != 0) {
 		if (e.type == SDL_QUIT) {
 			app_quit(app);
@@ -75,31 +81,81 @@ void app_handle_events(App* app)
 			exit(0);
 		}
 		if (e.type == SDL_KEYDOWN) {
-			if (e.key.keysym.sym == SDLK_SPACE) {
-				app->zoom += 2.0f;
-			}
-
-			if (e.key.keysym.sym == SDLK_LEFT) {
-				app->offset_x -= 0.5f / app->zoom;
-			}
-
-			if (e.key.keysym.sym == SDLK_RIGHT) {
-				app->offset_x += 0.5f / app->zoom;
-			}
-
-			if (e.key.keysym.sym == SDLK_UP) {
-				app->offset_y -= 0.5f / app->zoom;
-			}
-
-			if (e.key.keysym.sym == SDLK_DOWN) {
-				app->offset_y += 0.5f / app->zoom;
-			}
+			app_update(app);
 		}
 		if (e.type == SDL_WINDOWEVENT){
 			if (e.window.event == SDL_WINDOWEVENT_RESIZED) {
 				app->screen_width = e.window.data1;
 				app->screen_height = e.window.data2;
 			}
+		}
+		if (e.type == SDL_MOUSEBUTTONDOWN) {
+			printf("MOUSE DOWN\n");
+			
+			app->is_dragging = true;
+
+			app->drag_start_x = x;
+			app->drag_start_y = y;
+
+			printf("X: %d, Y: %d\n", x, y);
+
+		}
+		if (e.type == SDL_MOUSEBUTTONUP) {
+			printf("MOUSE UP\n");
+
+			app->is_dragging = false;
+
+			app->drag_end_x = x;
+			app->drag_end_y = y;
+
+			if (app->drag_start_x > app->drag_end_x) {
+				int tmp = app->drag_start_x;
+				app->drag_start_x = app->drag_end_x;
+				app->drag_end_x = tmp;
+			}
+
+			if (app->drag_start_y > app->drag_end_y) {
+				int tmp = app->drag_start_y;
+				app->drag_start_y = app->drag_end_y;
+				app->drag_end_y = tmp;
+			}
+
+			int end_point_x, end_point_y;
+			if (abs(app->drag_start_x - app->drag_end_x) > abs(app->drag_start_y - app->drag_end_y)) {
+				end_point_x = app->drag_start_x + abs(app->drag_start_x - app->drag_end_x);
+				end_point_y = app->drag_start_y + abs(app->drag_start_x - app->drag_end_x);
+			} else {
+				end_point_x = app->drag_start_x + abs(app->drag_start_y - app->drag_end_y);
+				end_point_y = app->drag_start_y + abs(app->drag_start_y - app->drag_end_y);
+			}
+
+
+
+			Coordinates new_start = screen_to_complex_no_zoom(app->drag_start_x, app->drag_start_y, app->screen_width, app->screen_height, app->start_point, app->end_point); 
+			Coordinates new_end = screen_to_complex_no_zoom(end_point_x,end_point_y, app->screen_width, app->screen_height, app->start_point, app->end_point);
+			
+
+			app->start_point = new_start;
+			
+			app->end_point.x = new_end.x;
+			app->end_point.y = new_end.y;
+
+
+			MAX_ITERATIONS = (400 / sqrt(app->end_point.x - app->start_point.x));
+
+
+			if (abs(MAX_ITERATIONS) > 1000000)
+				MAX_ITERATIONS = 1000000;
+
+			printf("MAX_ITERATIONS: %d\n", MAX_ITERATIONS);
+
+			app_update(app);
+
+		}
+
+		if (app->is_dragging) {
+			app->drag_end_x = x;
+			app->drag_end_y = y;
 		}
 	}
 }
@@ -133,6 +189,12 @@ void app_draw(App* app)
 	SDL_RenderClear(app->renderer);
 
 	SDL_RenderCopy(app->renderer, app->screen_buffer, NULL, NULL);
+	
+	if (app->is_dragging) {
+		SDL_SetRenderDrawColor(app->renderer, 255, 255, 255, 255);
+		SDL_Rect r = {app->drag_start_x, app->drag_start_y, app->drag_end_x - app->drag_start_x, app->drag_end_y - app->drag_start_y};
+		SDL_RenderDrawRect(app->renderer, &r);
+	}
 
 	SDL_RenderPresent(app->renderer);
 }
@@ -154,7 +216,7 @@ int mandelbrot(double cx, double cy)
 
 	while(x*x + y*y <= 16.0f)
 	{
-		double temp = x*x - y*y + cx;
+		double  temp = x*x - y*y + cx;
 		y = 2*x*y + cy;
 		x = temp;
 
@@ -173,17 +235,14 @@ PixelData fragment_compute(App* app, int input_cx, int input_cy)
 		.g = 0
 	};
 
-	// double cx = get_normalised_x((double) input_cx, (double) app->screen_height, n_x);
-	// double cy = get_normalised_y((double) input_cy, (double) app->screen_height, n_y);
-	//
-	Coordinates coords = screen_to_complex(input_cx, input_cy, app->screen_width, app->screen_height, app->zoom, app->offset_x, app->offset_y);
+	Coordinates coords = screen_to_complex_no_zoom(input_cx, input_cy, app->screen_width, app->screen_height, app->start_point, app->end_point); 
 
 	double cx = coords.x;
 	double cy = coords.y;
 
 	int iterations = mandelbrot(cx, cy);
 	
-	get_color(iterations, MAX_ITERATIONS, &pixel_data.r, &pixel_data.g, &pixel_data.b);
+	mandelbrot_color(iterations, 100, &pixel_data.r, &pixel_data.g, &pixel_data.b);
 
 	return pixel_data;
 }
