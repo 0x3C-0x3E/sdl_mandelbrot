@@ -90,18 +90,15 @@ void app_handle_events(App* app)
 			}
 		}
 		if (e.type == SDL_MOUSEBUTTONDOWN) {
-			printf("MOUSE DOWN\n");
 			
 			app->is_dragging = true;
 
 			app->drag_start_x = x;
 			app->drag_start_y = y;
 
-			printf("X: %d, Y: %d\n", x, y);
 
 		}
 		if (e.type == SDL_MOUSEBUTTONUP) {
-			printf("MOUSE UP\n");
 
 			app->is_dragging = false;
 
@@ -147,7 +144,6 @@ void app_handle_events(App* app)
 			if (abs(MAX_ITERATIONS) > 1000000)
 				MAX_ITERATIONS = 1000000;
 
-			printf("MAX_ITERATIONS: %d\n", MAX_ITERATIONS);
 
 			app_update(app);
 
@@ -174,12 +170,42 @@ void app_update(App* app)
 
 	Uint32* pixel_buffer = (Uint32*)malloc(app->screen_width * app->screen_height * sizeof(Uint32)); 
 
-	for (int y = 0; y < app->screen_height; y++) {
-		for (int x = 0; x < app->screen_width; x++) {
-			PixelData pixel_data = fragment_compute(app, x, y);
-			set_pixels(pixel_buffer, x, y, app->screen_width, app->screen_height, pixel_data.r, pixel_data.g, pixel_data.b, 255);
+	// for (int y = 0; y < app->screen_height; y++) {
+	// 	for (int x = 0; x < app->screen_width; x++) {
+	// 		PixelData pixel_data = fragment_compute(app, x, y);
+	// 		set_pixels(pixel_buffer, x, y, app->screen_width, app->screen_height, pixel_data.r, pixel_data.g, pixel_data.b, 255);
+	// 	}
+	// }
+
+	HANDLE threads[MAX_THREADS];
+	ThreadInput inputs[MAX_THREADS];
+
+
+	for (int i = 0; i < MAX_THREADS; i ++) {
+		inputs[i] = (ThreadInput) {
+			.app = app,
+			.pixel_offset = i,
+			.pixel_skip = MAX_THREADS,
+			.pixel_buffer = pixel_buffer,
+		};
+
+		threads[i] = CreateThread(
+			NULL,
+			0,
+			parallel_fragment_compute,
+			&inputs[i],
+			0,
+			NULL
+		);
+
+		if (!threads[i]) {
+			printf("COULD NOT CREATE THREAD!\n");
+			return;
 		}
 	}
+	
+	WaitForMultipleObjects(MAX_THREADS, threads, TRUE, INFINITE);
+	
 	update_texture(app->screen_buffer, pixel_buffer, app->screen_width, app->screen_height);
 	free(pixel_buffer);
 }
@@ -245,4 +271,31 @@ PixelData fragment_compute(App* app, int input_cx, int input_cy)
 	mandelbrot_color(iterations, 100, &pixel_data.r, &pixel_data.g, &pixel_data.b);
 
 	return pixel_data;
+}
+
+DWORD WINAPI parallel_fragment_compute(LPVOID arg)
+{
+	ThreadInput * input = (ThreadInput * ) arg;
+
+	int x = input->pixel_offset;
+	int y = 0;
+
+	bool reached_end = false;
+
+	while (!reached_end) {
+		PixelData pixel_data = fragment_compute(input->app, x, y);
+		set_pixels(input->pixel_buffer, x, y, input->app->screen_width, input->app->screen_height, pixel_data.r, pixel_data.g, pixel_data.b, 255);
+
+		x += input->pixel_skip;
+		if (x % input->app->screen_width != x) {
+			x = x % input->app->screen_width;
+			y += 1;
+		}
+		if (y >= input->app->screen_height) {
+			reached_end = true;
+		}
+	}
+
+
+	return 0;
 }

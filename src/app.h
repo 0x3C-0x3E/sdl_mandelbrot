@@ -5,7 +5,12 @@
 #include <stdbool.h>
 #include <math.h>
 
+#include <windows.h>
+
 #include "utils.h"
+
+#define MAX_THREADS 4 
+
 
 typedef struct App {
 	SDL_Window * window;
@@ -25,6 +30,13 @@ typedef struct App {
 	int drag_end_x;
 	int drag_end_y;
 } App;
+
+typedef struct ThreadInput {
+	App * app;
+	int pixel_offset;
+	int pixel_skip;
+	Uint32* pixel_buffer;	
+} ThreadInput;
 
 extern int MAX_ITERATIONS;
 
@@ -49,3 +61,4 @@ int mandelbrot(double cx, double cy); // returns the iterations
 
 PixelData fragment_compute(App* app, int input_cx, int input_cy);
 
+DWORD WINAPI parallel_fragment_compute(LPVOID arg);
